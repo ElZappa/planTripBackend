@@ -36,7 +36,7 @@ class AirlinesService {
   }
 
   async GetAll() {
-    const name = this.getTotal();
+    // const name = this.getTotal();
     return this.airlines;
   }
 
